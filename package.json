@@ -1,0 +1,8 @@
+{
+  "name": "runtrack-unit-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --test --test-reporter=spec runtrack.test.js",
+    "coverage": "node --test --experimental-test-coverage --test-coverage-include=script.js runtrack.test.js && node coverage-runform.js"
+  }
+}
